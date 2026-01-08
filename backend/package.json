@@ -1,0 +1,29 @@
+{
+  "name": "drishya-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Drishya non-compliance detection system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "python": "conda run -n gen python python_server.py",
+    "dev:python": "conda run -n gen python python_server.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "non-compliance",
+    "detection",
+    "surveillance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

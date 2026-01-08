@@ -1,0 +1,5 @@
+conda run -n gen --cwd /home/sanvict/Documents/Code/Drishya/backend python start_services.py
+conda run -n gen python stop_services.py
+- Anti-Cheat: http://localhost:5002/api/anticheat_feed
+- QR Code: http://localhost:5003/api/qr_feed
+- Anomaly: http://localhost:5001/api/video_feed
